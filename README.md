@@ -4,6 +4,9 @@ Testing and RPA
 In this project automation was done on the Connected Office Web Application. It automates the different web forms Devices, Zones and Categories on the given web application. It reads items from an excel file for each of these forms, fills them in and then displaying the item details. Items can be edited and delete, onces all these .The excel file in the UiPath project contains a "Test Results" sheet containing the value "FALSE" before you run the project file. This "FALSE" value is changed to "TRUE" to indicate that the item was created successfully.
 ## Process published on Orchestrator
 
+![image](https://user-images.githubusercontent.com/110894098/198298667-f20c33ec-34d5-4657-9ec3-d569e27d0c0b.png)
+
+
 ## References 
 
 1.Get multiple excel sheets to one DataTable
