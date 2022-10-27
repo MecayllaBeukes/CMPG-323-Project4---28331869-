@@ -10,7 +10,12 @@ In this project automation was done on the Connected Office Web Application. It 
 
 
 
-Althought it shows that the processs has been published , it is not visible on my Orchestrator.
+Althought it shows that the processs has been published , it is not visible on my Orchestrator. Ive tried multiple times, eventually it just gives me the erro :"Publish of Process failied. Package already exists".
+
+
+
+
+
 ## References 
 
 1.Get multiple excel sheets to one DataTable
