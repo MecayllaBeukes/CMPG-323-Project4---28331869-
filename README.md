@@ -1,14 +1,39 @@
 # CMPG-323-Project4---28331869-
 Testing and RPA
 
+## Overview
+Robotic Process Automation (RPA) refers to the use of technology to mimic human tasks in the same way that a person would execute a process. This usually refers to, what we would call,‘front-end’ or UI (User Interface) automation. RPA is often used to automate time-consuming and highly repetitive tasks to allow people the availed capacity to work on more intuitive tasks.
+
+
+In this project automation was done on the Connected Office Web Application. It automates the different web forms Devices, Zones and Categories on the given web application. It reads items from an excel file for each of these forms, fills them in and then displaying the item details. Items can be edited and delete, onces all these .The excel file in the UiPath project contains a "Test Results" sheet containing the value "FALSE" before you run the project file. This "FALSE" value is changed to "TRUE" to indicate that the item was created successfully.
+
 
 ## How the user would use the report 
-In this project automation was done on the Connected Office Web Application. It automates the different web forms Devices, Zones and Categories on the given web application. It reads items from an excel file for each of these forms, fills them in and then displaying the item details. Items can be edited and delete, onces all these .The excel file in the UiPath project contains a "Test Results" sheet containing the value "FALSE" before you run the project file. This "FALSE" value is changed to "TRUE" to indicate that the item was created successfully.
+
+Stakeholders has to run the automation on UIPath community studio, the automation solution takes input from the excel, then populates the database table and then the tables are updated and deleted automatically
 
 1. Login , with username and password
 2. Select the item you would like to create. 
 3. Once the item is created it displayed, it can then be edited or deleted.
-4. If all edit , delete, read and create functions are functional and the process is done successfully the data table is updated and the test result is changed from FALSE to True and
+4. If all edit , delete, read and create functions are functional and the process is done successfully the data table is updated and the test result is changed from FALSE to True 
+
+# LOGIN web form
+The login button to be clicked and allow for login details are automatically populated.
+
+# Zone web form
+
+The Zone webform reads data from the provided excel file from sheet zone, to the Zone form in the web browser. When reading is done the data will be created automatically using the create button. The all data that has been created can then be viewed and can be edited and deleted.
+
+
+# Device Web form
+The Device webform reads data from the provided excel file from sheet device, to the device form in the web browser. When reading done the data will be created automatically using the create button. The all data that has been created can then be viewed and can be edited and deleted.
+
+
+
+# Category  Web form
+
+The Category web form reads data from the provided excel file from sheet category, to the category form in the web browser. When reading done the data will be created automatically using the create button. The all data that has been created can then be viewed and can be edited and deleted.
+
 
 ## Process published on Orchestrator
 
